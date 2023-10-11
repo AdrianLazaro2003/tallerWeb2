@@ -1,0 +1,84 @@
+body {
+    background-color: #f1f1f1;
+    background-image: url("fondo.jpg");
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: #FF0101;
+    padding: 20px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 36px;
+    animation-duration: 2s;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mision-vision {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.buton1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    text-align: justify;
+}
+
+.iframe-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.buton1{
+    margin-bottom: 3rem;
+}
+
+.buton1 a{
+    background-color: #FF0101;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'calibri';
+}
+
+video{
+    width: 40rem;
+    background: white;
+    padding: 30px;
+    margin: 2rem auto 3rem auto;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: #000;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,430 @@
+:root{
+  --font-secundaria: 'Comic Neue', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../images/pexels-photo-3028500.jpeg);
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li{
+  list-style: none;
+}
+
+header ul li a{
+  position: relative;
+  font-family: helvetica;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+  transition: 0.7s;
+}
+
+.image-header{
+  padding-top: 8rem;
+}
+
+.navbar.abajo{
+  background: #FF0101;
+  padding: 15px 20px;
+}
+
+
+.fa-bag-shopping{
+  padding-right: 20px;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #FF0101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.7s;
+  padding: 30px 20px;
+  z-index: 10;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Añade cualquier otro estilo que necesites para el contenido debajo del navbar */
+.content {
+  flex-grow: 1;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+
+.content .h3-header{
+  color: #FF0106;
+  display: flex;
+  font-size: 1.8rem;
+  font-family: var(--font-secundaria);
+  align-items: center;
+  font-weight: bold;
+}
+
+.center-section {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-form {
+  display: inline-block;
+  text-align: left;
+}
+
+.search-input {
+  padding: 10px;
+  width: 20rem;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 10px 15px;
+  border: solid black;
+  background-color: #C40000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.right-section {
+  display: flex;
+}
+
+.login-button,
+.cart-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 4rem;
+}
+
+.producto-categoria {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.producto-contenedor {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.producto-contenedor::-webkit-scrollbar {
+  display: none;
+}
+
+.producto-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 460px;
+  margin-right: 40px;
+}
+
+.producto-imagen {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.producto-imagen img{
+  width: auto;
+}
+
+.producto-miniatura {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.descuento {
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff7d7d;
+  right: 10px;
+  top: 10px;
+  text-transform: capitalize;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.producto-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background: #ff7d7d;
+  color: #fff;
+}
+
+.producto-info {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.producto-nombre {
+  text-transform: uppercase;
+}
+
+.producto-descripcion-corta {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.precio {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.logo-papuchi {
+  font-weight: 900;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 3rem;
+}
+
+.actual-precio {
+  margin-left: 20px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.boton-comprar i {
+  color: #FF0101;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.icono-barra {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.icono-buscar{
+  color: black;
+}
+
+.boton-comprar i:hover {
+  color: #C40000;
+}
+
+.icono-derecha {
+  margin-left: 1rem;
+  
+}
+
+/* Estilos base para el footer */
+.footer {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #0c5afb;
+}
+
+.footer-contact p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer-contact a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-reclamaciones{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-reclamaciones a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-logo {
+      margin-bottom: 20px;
+  }
+
+  .footer-links ul {
+      text-align: center;
+  }
+}

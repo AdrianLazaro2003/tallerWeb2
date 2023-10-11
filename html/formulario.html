@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div class="contenedor">     
+    <title>Document</title>
+    <link rel="stylesheet" href="style-for.css">
+</head>
+<body>
+    
+    <form action="proyectofinal.php">
+        <fieldset>
+            <legend>Registro de Compra</legend>
+            <label>Nombre </label>
+            <input type="text" name="txtNombre" 
+                    placeholder="Ingrese su nombre"
+                    title="Ingrese su nombre"
+                    pattern="[A-Za-z]+"
+                    required/>
+            <label>Apellidos </label>
+            <input type="text" name="txtApellidos" 
+                   placeholder="Ingrese su Apellidos"
+                    title="Ingrese su Apellidos"
+                    pattern="[A-Za-z]+"
+                    required/>
+            <label>Dni </label>
+            <input type="text" name="txtDni" 
+                    placeholder="Ingrese su Dni"
+                    title="Ingrese su Dni"
+                    pattern="[0-9]+"
+                    required/>
+            <label>Email </label>
+            <input type="text" name="txtEmail" 
+                    placeholder="Ingrese su Email"
+                    title="Ingrese su Email"
+                    pattern="[A-Za-z-@.]+"
+                    required/>                 
+        </fieldset> 
+        <fieldset> 
+            <label>Direccion </label>
+            <input type="text" name="txtDireccion"
+                   placeholder="Ingrese su direccion"
+                   title="Ingrese su direccion"
+                   pattern="[A-Za-z-0-9-.]+"
+                   required/>
+            <label>Celular </label>
+            <input type="text" name="txtCelular" 
+                    placeholder="Ingrese su numero de celular"
+                    title="Ingrese su numero de celular"
+                    pattern="[0-9]+"
+                    required/>
+            <label>Destino</label>
+            <input type="text" name="txtDestino" 
+                    placeholder="Departamento/Casa/Oficina "
+                    title="Departamento/Casa/Oficina "
+                    pattern="[A-Za-z]+"
+                    required/>                           
+            <label>Departamento</label>
+            <select name="Departamento">
+                <option value="ddlLima">Lima</option>
+                <option value="ddlArequipa">Arequipa</option>
+                <option value="ddlIca" >Ica</option>
+            </select>
+            <label>Provincia</label>
+            <select name="Provincia">
+                <option value="ddlBarranca">Lima</option>
+                <option value="ddlLima">Barranca</option>
+                <option value="ddlCajatambo">Cajatambo</option>
+                <option value="ddlIca">Ica</option>
+                <option value="ddlPisco">Pisco</option>
+                <option value="ddlChincha">Chincha</option>
+                <option value="ddlCaravelí">Caravelí</option>
+                <option value="ddlCamaná">Camaná</option>
+                <option value="ddlArequipa">Arequipa</option>
+            </select>                              
+            <label>Distrito</label>
+            <select name="Distritos">
+                <option value="ddlParamonga">Los Olivos</option>
+                <option value="ddlBarranca">Paramonga</option>
+                <option value="ddlLima">Lima</option>
+                <option value="ddlIndependencia">Independencia</option>
+                <option value="ddlOlivos">Barranca</option>
+                <option value="ddlMasnás">Masnás</option>
+                <option value="ddlGorgor">Gorgor</option>
+                <option value="ddlChincha alta">Chincha alta </option>
+                <option value="ddlChincha baja">Chincha baja </option>
+                <option value="ddlIca">Ica</option>
+                <option value="ddlPueblonuevo">Pueblo nuevo</option>
+                <option value="ddlpiscopueblo">pisco pueblo</option>
+                <option value="ddlpiscoplaya">pisco playa</option>
+                <option value="ddlArequipa">Arequipa</option>
+                <option value="ddlCerro colorado">Cerro colorado</option>
+                <option value="ddlOcoña">Ocoña</option>
+                <option value="ddlQuilca">Quilca</option>
+                <option value="ddlCaravelì">Caravelì</option>
+                <option value="ddlChala">Chala</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+                <legend>Referencia</legend>
+                <textarea name="txtObserva"cols="50"rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+            <legend>Términos y condiciones</legend>
+                <label for="ckTer">Acepto los Términos y Condiciones</label>
+                <input type="checkbox" name="ckTer"
+                   id="ckTer"
+                   value="Es"/>
+            </fieldset>
+        <input type="submit" value="Enviar" name="btnEnviar" />
+        <a href="index.php">atras</a>
+    </form>
+        <img src="images/pichincha.jpg" alt="Logo" class="imagen-derecha"/>
+    </div>
+    
+</body>
+</html>

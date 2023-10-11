@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4fff069f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Minimarket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+        <a href="#" class="logo-papuchi"> <img src="images/logo-blanco.png" width="200" alt=""> </a>
+        
+        <form action="/buscar" method="GET" class="search-form">
+            <input type="text" id="producto" name="producto" class="search-input" placeholder="Busque aqui el producto Ej. Zapatos, Teléfono, Ropa" required>
+            <button type="submit" class="search-button">Buscar</button>
+        </form>
+        <nav>
+			<ul>
+                <li><a href="#">Carrito</a></li>
+				<li><a href="html/contacto.html">Contacto</a></li>
+				<li><a href="login.html">Iniciar Sesión</a></li>
+				<li><a href="registrarse.html">Registrarse</a></li>
+			</ul>
+		</nav>
+        </div>
+    <div class="content">
+        <div class="image-header">
+            <img src="images/logo-header.png" alt="logo-header" width="400">
+        </div>
+    </div>
+    </header>
+
+    <section class="producto">
+        <h2 class="producto-categoria">Lo mejor en electrodomesticos</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+
+        <div class="producto-contenedor">
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/lavadora1.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 1</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="formulario.php" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/lavadora2.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 2</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/microondas.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 3</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/refrigerador.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 4</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/waflera.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 5</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/acondicionado.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 6</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/cafetera.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 7</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/aspiradora.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 8</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/licuadora.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 9</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/refribar.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 10</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="producto">
+        <h2 class="producto-categoria">Lo mejor en frutas y verduras</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="producto-contenedor">
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/aji.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 1</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/apio.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 2</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/brocoli.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 3</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/cilantro.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 4</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/espinaca.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 5</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/palta.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 6</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/pera.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 7</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/piña.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 8</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/platano.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 9</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/uva.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 10</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="producto">
+        <h2 class="producto-categoria">Lo mejor en tecnologia</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="producto-contenedor">
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/computadora1.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 1</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/computadora2.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 2</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/computadora3.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 3</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/laptop1.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 4</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/laptop2.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 5</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/laptop3.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 6</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/teclado1.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 7</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/teclado2.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 8</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/teclado3.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 9</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+            <div class="producto-card">
+                <div class="producto-imagen">
+                    <span class="descuento">50% off</span>
+                    <img src="images/mouse.jpg" class="producto-miniatura" alt="">
+                    <button class="card-btn">Añadir al carrito</button>
+                </div>
+                <div class="producto-info">
+                    <h2 class="producto-nombre">Producto 10</h2>
+                    <p class="producto-descripcion-corta">Descripción del producto</p>
+                    <span class="precio">S/30.00</span><span class="actual-precio">S/40.00</span>
+                    <a href="#" class="boton-comprar"><i class="fa-solid fa-cart-shopping icono-derecha"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo-blanco.png" width="200" alt="Logo de la empresa">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Mi cesta</a></li>
+                        <li><a href="html/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                        <li><a href="html/contacto.html">Contacto</a></li>
+                        <li><a href="html/sobre-nosotros.html">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>Contacto: <a href="mailto:info@example.com">VilaMarketConsultas@gmail.com</a></p>
+                </div>
+                <div class="footer-reclamaciones">
+                    <a href='html/formulario_sugerencias.html'>Formulario de Sugerencias</a>
+                    <a href='html/formulario_reclamos.html'>Formulario de Reclamaciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
